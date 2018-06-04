@@ -1,0 +1,87 @@
+.Navbar {
+  margin-bottom: 0;
+}
+
+.title {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.body {
+  text-align: center;
+  font-size: 16px;
+
+  background: url("background.jpg");
+  height: 100%;
+  width: 100%;
+}
+
+.tcontent {
+  height: 400px;
+  padding-top: 10px;
+  padding: 40px;
+}
+
+.table {
+  height: 40px;
+  width: 100px;
+  text-align: center;
+}
+
+.headerImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon {
+  margin: 4px;
+}
+
+.presentation {
+  align-items: center;
+  text-align: left;
+}
+
+.icons {
+  table-layout: auto;
+}
+
+.footertitle {
+  text-align: center;
+  border-top: 2px solid #808080;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.footer {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.links {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.projectTitle {
+  padding-top: 10px;
+}
+
+.projectDescription {
+  padding-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 10px;
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
