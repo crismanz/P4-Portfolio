@@ -14,17 +14,17 @@ class Navigation extends Component {
           <Navbar className="Navbar">
             <Navbar.Header>
               <Navbar.Brand>
-                <Link exact to="/">Cristina Manzoni</Link>
+                <Link exact="/" to="/">Cristina Manzoni</Link>
               </Navbar.Brand>
               <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
               <Nav pullRight>
-                <NavItem>
-                  <Link exact to="/projects" className="nLink">Projects</Link>
+                <NavItem componentClass='span'>
+                  <Link exact="/projects" to="/projects" className="nLink">Projects</Link>
                 </NavItem>
-                <NavItem>
-                  <Link exact to="/skills" className="nLink">Skills</Link>
+                <NavItem componentClass='span'>
+                  <Link exact="/skills" to="/skills" className="nLink">Skills</Link>
                 </NavItem>
               </Nav>
             </Navbar.Collapse>

@@ -14,7 +14,7 @@ class Footer extends Component {
             <div className="col-sm-2">
               <p><strong>Cristina Manzoni</strong> <br /> Full Stack Developer</p>
             </div>
-            <div className="col-sm-3">
+            <div className="col-lg-3 col-sm-4">
               <p><strong>Email:</strong><br /> cristina.manzoni@outlook.com</p>
             </div>
             <div className="col-sm-1">
